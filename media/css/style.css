@@ -1,0 +1,336 @@
+/*макет: https://www.figma.com/file/Wn3H72YQS58t0olcQUxpKj/Paper-%2B?node-id=2%3A2&t=b70Z4JM7e6I44wGy-0*/
+
+
+body {
+	margin: 0 auto;
+}
+.section1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background1.jpg);
+	background-size: 100%;
+	padding-top: 2%;
+	padding-bottom: 4.5%;
+}
+.menu_style {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	margin-left: 4%;
+	
+}
+.logo_img {
+	width: 100%;
+}
+nav {
+	margin-right: 14%;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+}
+.li_menu {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.a_menu {
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 22px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+.style_h2_bclock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 140px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	padding-top: 10%;
+	padding-bottom: 4%;
+	width: 80%;
+}
+.text_style {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-bottom: 7%;
+}
+.style_button {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 6%;
+}
+.border_button {
+	border: 1px solid #fff;
+	width: 100%;
+	border-radius: 50px;
+	padding: 12%;
+}
+.a_button {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.section2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background2.jpg);
+	background-size: 100%;
+	padding-bottom: 13%;
+}
+
+.section3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background3.jpg);
+	background-size: 100%;
+
+}
+
+.section4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background4.jpg);
+	background-size: 100%;
+}
+
+.section5 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background5.jpg);
+	background-size: 100%;
+}
+
+.h2__block {
+	color: #fff;
+	text-align: center;
+	font-size: 140px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+}
+.text_style_block {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-bottom: 4%;
+}
+.style_button_block {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4%;
+}
+.border_button_block {
+	border: 1px solid #fff;
+	width: 100%;
+	border-radius: 50px;
+	padding: 10%;
+}
+.a_button_block {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+.section6 {
+	background-color: #000000;
+}
+.style_h2_bclock2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.h2__block2 {
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	padding-top: 10%;
+	padding-bottom: 2%;
+}
+.text_style_block2 {
+	color: #fff;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	padding-bottom: 4%;
+}
+.style_button_block2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4%;
+}
+.a_button_block2 {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-size: 14px;
+}
+.border_button_block2 {
+	border: 1px solid #fff;
+	background-color: #fff;
+	width: 100%;
+	border-radius: 50px;
+	padding: 10%;
+}
+footer {
+	background-color: #000000;
+}
+.footer_style {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 6%;
+	padding-bottom: 2%;
+}
+.footer_autor {
+	display: flex;
+	margin-left: 5%;
+}
+.footer_autor_text {
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	width: 175px;
+}
+.mess_footer {
+	margin-right: 5%;
+}
+.li_footer {
+	margin-left: 5%;
+}
+.li1_footer {
+	border: 1px solid transparent;
+	width: 180px;
+}
+.a_footer {
+	text-decoration: none;
+	color: #666666;
+	font-weight: 400;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+.section1 {
+	padding-bottom: 0%;
+}
+.a_menu {
+	font-size: 6px;
+}
+.logo_img {
+	width: 25%;
+} 
+h2 {
+	font-size: 20px;
+}
+.text_style {
+	font-size: 8px;
+}
+.a_button {
+	font-size: 6px;
+}
+.section2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background2.jpg);
+	background-size: 100%;
+	padding-bottom: 14%;
+}
+
+.section3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background3.jpg);
+	background-size: 100%;
+	padding-bottom: 18%;
+}
+
+.section4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background4.jpg);
+	background-size: 100%;
+	padding-bottom: 18%;
+}
+
+.section5 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20),
+									  rgba(0, 0, 0, 0.20)),
+	url(../../media/img/background5.jpg);
+	background-size: 100%;
+	padding-bottom: 18%;
+}
+
+.h2__block {
+	font-size: 20px;
+}
+.text_style_block {
+	font-size: 8px;
+}
+.a_button_block {
+	font-size: 6px;
+}
+.section6 {
+	background-color: #000000;
+}
+.h2__block2 {
+	font-size: 20px;
+}
+.text_style_block2 {
+	font-size: 8px;
+}
+.a_button_block2 {
+	font-size: 6px;
+}
+.footer_autor {
+	display: flex;
+	margin-left: 5%;
+}
+.footer_autor_text {
+	width: 70px;
+	font-size: 5px;
+}
+.mess_footer {
+	margin-right: 5%;
+}
+.li_footer {
+	margin-left: 5%;
+}
+.li1_footer {
+	width: 75px;
+}
+.a_footer {
+	font-size: 5px;
+}
+}
